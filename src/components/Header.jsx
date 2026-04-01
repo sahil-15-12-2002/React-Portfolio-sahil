@@ -57,7 +57,7 @@ const Header = () => {
 
                         <li>
                             <NavLink to="/projects" onClick={closeMenu} className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                                Portfolio
+                                Projects
                             </NavLink>
                         </li>
 
