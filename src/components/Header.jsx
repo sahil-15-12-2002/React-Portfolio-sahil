@@ -4,10 +4,8 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
 
-    // Toggle mobile menu
     const toggleMenu = () => setMobileOpen(!mobileOpen);
 
-    // Close mobile menu when a link is clicked
     const closeMenu = () => setMobileOpen(false);
 
     return (
@@ -18,7 +16,6 @@ const Header = () => {
         >
             <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-                {/* Logo */}
                 <NavLink
                     to="/"
                     className="logo d-flex align-items-center me-auto me-xl-0 text-decoration-none"
@@ -27,7 +24,6 @@ const Header = () => {
                     <h1 className="sitename mb-0">Sahil</h1>
                 </NavLink>
 
-                {/* Navigation Menu */}
                 <nav id="navmenu" className="navmenu">
                     <ul className="list-unstyled mb-0">
 
@@ -69,14 +65,12 @@ const Header = () => {
 
                     </ul>
 
-                    {/* Mobile Toggle Button */}
                     <i
                         className={`mobile-nav-toggle d-xl-none bi ${mobileOpen ? 'bi-x' : 'bi-list'}`}
                         onClick={toggleMenu}
                     ></i>
                 </nav>
 
-                {/* Social Links */}
                 <div className="header-social-links d-flex gap-2">
                     <a href="https://github.com/sahil-15-12-2002" target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-github"></i>

@@ -5,9 +5,8 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   useEffect(() => {
-    // Initialize AOS on component mount
     AOS.init({ duration: 1000, once: true });
-    AOS.refresh(); // Refresh so animations trigger on route changes
+    AOS.refresh(); 
   }, []);
     return (
         <div>

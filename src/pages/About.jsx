@@ -91,7 +91,6 @@ const About = () => {
 
   return (
     <main className="main">
-      {/* About Section */}
       <section id="about" className="about section mt-4">
         <div className="container section-title" data-aos="fade-up">
           <h2>About</h2>
@@ -138,7 +137,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
       <section id="skills" className="skills section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Skills</h2>
@@ -175,7 +173,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
       <section id="stats" className="stats section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Facts</h2>
@@ -196,7 +193,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section id="testimonials" className="testimonials section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>

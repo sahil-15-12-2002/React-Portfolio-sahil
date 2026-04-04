@@ -5,25 +5,19 @@ import "aos/dist/aos.css";
 
 const Services = () => {
   useEffect(() => {
-    // Initialize AOS on component mount
     AOS.init({ duration: 1000, once: true });
-    AOS.refresh(); // Refresh so animations trigger on route changes
+    AOS.refresh(); 
   }, []);
   return (
     <div>
       <main className="main">
-
         <section id="services" className="services section mt-4">
-
           <div className="container section-title" data-aos="fade-up">
             <h2>Our Services</h2>
             <p>We provide comprehensive web development services using modern technologies and best practices.</p>
           </div>
-
           <div className="container">
             <div className="row gy-4">
-
-              {/* Full-Stack Web Development */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div className="service-item item-cyan position-relative">
                   <div className="icon">
@@ -40,8 +34,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Front-End Development */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div className="service-item item-orange position-relative">
                   <div className="icon">
@@ -59,8 +51,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Back-End Development */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div className="service-item item-teal position-relative">
                   <div className="icon">
@@ -78,8 +68,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Database Management */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div className="service-item item-red position-relative">
                   <div className="icon">
@@ -97,8 +85,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* E-commerce & SaaS Applications */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div className="service-item item-indigo position-relative">
                   <div className="icon">
@@ -115,8 +101,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Website Maintenance & Optimization */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                 <div className="service-item item-pink position-relative">
                   <div className="icon">
@@ -133,8 +117,6 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Deployment & DevOps Support */}
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                 <div className="service-item item-cyan position-relative">
                   <div className="icon">
@@ -143,7 +125,6 @@ const Services = () => {
                     </svg>
                     <i className="bi bi-cloud-upload"></i>
                   </div>
-                  
                     <h3>Deployment & DevOps Support</h3>
                   <p>
                     Deploy applications to cloud platforms like Heroku, AWS, or Vercel.
@@ -152,12 +133,9 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-
             </div>
           </div>
-
         </section>
-
       </main>
     </div>
   )

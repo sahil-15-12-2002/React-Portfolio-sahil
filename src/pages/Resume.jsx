@@ -21,16 +21,10 @@ const Resume = () => {
 
           <div className="container">
             <div className="row">
-
-              {/* Left Column: Summary + Education */}
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-                {/* Summary */}
                 <h3 className="resume-title">Summary</h3> <div className="resume-item pb-0"> <h4>Sahil Kumar</h4>
                   <p><em>Full Stack Developer passionate about building scalable and user-friendly web applications with modern technologies.</em></p>
                   <ul> <li>Chandigarh, India</li> <li>+91 7973014002</li> <li>10sahilkumar2002@gmail.com</li> </ul> </div>
-
-                {/* Education */}
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
                   <h4>Bachelor of Computer Applications (BCA)</h4>
@@ -44,13 +38,10 @@ const Resume = () => {
                   <p><em>Govt. Model Sr. Secondary School, Sarangpur, Chandigarh</em></p>
                   <p>Learned fundamental IT skills including programming, networking, and basic web development.</p>
                 </div>
-
               </div>
 
-              {/* Right Column: Experience + Projects */}
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
 
-                {/* Professional Experience */}
                 <h3 className="resume-title">Professional Experience</h3>
 
                 <div className="resume-item">
@@ -78,9 +69,7 @@ const Resume = () => {
 
             </div>
           </div>
-
         </section>
-
       </main>
     </div>
   );
